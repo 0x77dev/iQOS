@@ -18,7 +18,8 @@
     "lint:fix": "eslint --fix 'src/**/*.ts'",
     "build": "tsc",
     "build:watch": "tsc --watch",
-    "prepublish": "yarn build"
+    "prepublish": "yarn build",
+    "build:docs": "typedoc"
   },
   "devDependencies": {
     "@types/node": "^13.7.4",
@@ -26,6 +27,7 @@
     "@typescript-eslint/eslint-plugin": "^2.20.0",
     "@typescript-eslint/parser": "^2.20.0",
     "eslint": "^6.8.0",
+    "typedoc": "^0.16.10",
     "typescript": "^3.8.2"
   }
 }

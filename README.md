@@ -2,6 +2,7 @@
 [Not official] **iQOS Device BLE Communication Library**, written in **TypeScript**, using _web-bluetooth_ **api**.
 
 ## Getting started
+### [Docs](https://0x77dev.github.io/iQOS)
 ### Installing Library
 ```bash
 # Using Yarn
@@ -26,8 +27,6 @@ const handleUpdate = (iqosInstance) => {
 const iqos = new iQOS(navigator.bluetooth, handleUpdate);
 
 console.log(iqos.batteryValue); // Example output -> {holderReady: true, case: 100}
-
-// Documentation not completed, see details in sources or types.
 ```
 ---
 > iQOS is a trademark of Philip Morris International.
