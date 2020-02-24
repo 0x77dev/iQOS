@@ -1,0 +1,31 @@
+{
+  "name": "iqos",
+  "version": "1.0.0",
+  "description": "[Not official] iQOS Device BLE Communication Library",
+  "main": "dist/index.js",
+  "author": "Misha Marinenko <0x77dev@protonmail.com>",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "iqos",
+    "ble",
+    "web-bluetooth",
+    "e-cigarette",
+    "pmi"
+  ],
+  "scripts": {
+    "lint": "eslint 'src/**/*.ts'",
+    "lint:fix": "eslint --fix 'src/**/*.ts'",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "prepublish": "yarn build"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.4",
+    "@types/web-bluetooth": "^0.0.5",
+    "@typescript-eslint/eslint-plugin": "^2.20.0",
+    "@typescript-eslint/parser": "^2.20.0",
+    "eslint": "^6.8.0",
+    "typescript": "^3.8.2"
+  }
+}
