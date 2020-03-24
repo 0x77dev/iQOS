@@ -1,5 +1,7 @@
 # iQOS
-[Not official] **iQOS Device BLE Communication Library**, written in **TypeScript**, using _web-bluetooth_ **api**.
+[non-official] **iQOS Device BLE Communication Library**, written in **TypeScript**, using _web-bluetooth_ **api**.
+
+![Discord](https://img.shields.io/discord/623802434531360768) ![GitHub package.json version](https://img.shields.io/github/package-json/v/0x77dev/iQOS)
 
 ## Getting started
 ### [Docs](https://0x77dev.github.io/iQOS)
