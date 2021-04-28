@@ -33,10 +33,10 @@
   resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
   integrity sha512-tHq6qdbT9U1IRSGf14CL0pUlULksvY9OZ+5eEgl1N7t+OA3tGvNpxJCzuKQlsNgCVwbAs670L1vcVQi8j9HjnA==
 
-"@types/node@^13.7.4":
-  version "13.9.3"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.9.3.tgz#6356df2647de9eac569f9a52eda3480fa9e70b4d"
-  integrity sha512-01s+ac4qerwd6RHD+mVbOEsraDHSgUaefQlEdBbUolnQFjKwCr7luvAlEwW1RFojh67u0z4OUTjPn9LEl4zIkA==
+"@types/node@^15.0.0":
+  version "15.0.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-15.0.0.tgz#557dd0da4a6dca1407481df3bbacae0cd6f68042"
+  integrity sha512-YN1d+ae2MCb4U0mMa+Zlb5lWTdpFShbAj5nmte6lel27waMMBfivrm0prC16p/Di3DyTrmerrYUT8/145HXxVw==
 
 "@types/web-bluetooth@^0.0.5":
   version "0.0.5"
@@ -52,15 +52,6 @@
     functional-red-black-tree "^1.0.1"
     regexpp "^3.0.0"
     tsutils "^3.17.1"
-
-"@typescript-eslint/experimental-utils@2.20.0":
-  version "2.20.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/experimental-utils/-/experimental-utils-2.20.0.tgz#3b6fa5a6b8885f126d5a4280e0d44f0f41e73e32"
-  integrity sha512-fEBy9xYrwG9hfBLFEwGW2lKwDRTmYzH3DwTmYbT+SMycmxAoPl0eGretnBFj/s+NfYBG63w/5c3lsvqqz5mYag==
-  dependencies:
-    "@types/json-schema" "^7.0.3"
-    "@typescript-eslint/typescript-estree" "2.20.0"
-    eslint-scope "^5.0.0"
 
 "@typescript-eslint/experimental-utils@2.25.0":
   version "2.25.0"
@@ -81,19 +72,6 @@
     "@typescript-eslint/experimental-utils" "2.25.0"
     "@typescript-eslint/typescript-estree" "2.25.0"
     eslint-visitor-keys "^1.1.0"
-
-"@typescript-eslint/typescript-estree@2.20.0":
-  version "2.20.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-2.20.0.tgz#90a0f5598826b35b966ca83483b1a621b1a4d0c9"
-  integrity sha512-WlFk8QtI8pPaE7JGQGxU7nGcnk1ccKAJkhbVookv94ZcAef3m6oCE/jEDL6dGte3JcD7reKrA0o55XhBRiVT3A==
-  dependencies:
-    debug "^4.1.1"
-    eslint-visitor-keys "^1.1.0"
-    glob "^7.1.6"
-    is-glob "^4.0.1"
-    lodash "^4.17.15"
-    semver "^6.3.0"
-    tsutils "^3.17.1"
 
 "@typescript-eslint/typescript-estree@2.25.0":
   version "2.25.0"
